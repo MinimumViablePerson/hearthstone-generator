@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 import CardName from './cardName'
 import CardImage from './cardImage'
-import CardRarity from './cardRarity'
 import CardMana from './cardMana'
 import CardText from './cardText'
 import CardHealth from './cardHealth'
