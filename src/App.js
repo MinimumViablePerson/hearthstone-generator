@@ -7,7 +7,7 @@ import Title from './components/title'
 import Card from './components/card'
 
 type Props = {
-
+  className: string
 }
 
 type State = {

@@ -30,14 +30,14 @@ type CardRarity =
 
 export type Card = {
     type: CardType,
-    family: CardFamily,
+    family?: CardFamily,
     class: CardClass,
-    rarity: CardRarity,
+    rarity?: CardRarity,
     image: string,
     golden: boolean,
     name: string,
-    text: string,
+    text?: string,
     mana: number,
-    attack: number,
-    health: number,
+    attack?: number,
+    health?: number,
 }
