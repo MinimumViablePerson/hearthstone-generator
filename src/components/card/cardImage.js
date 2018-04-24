@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 export default styled.div`
     position: absolute;
-    left: calc(50% - 10vw);
-    top: -2vw;
+    left: 20%;
+    top: 6%;
+    z-index: -1;
 
-    width: 20vw;
-    height: 29vw;
+    width: 60%;
+    height: 55%;
 
     border-radius: 50%;
     background: url(${props => props.src}) center;

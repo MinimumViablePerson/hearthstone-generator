@@ -13,7 +13,6 @@ export const Card = ({card, className}) => (
     <div className={className}>
         <CardMana>{card.mana}</CardMana>
         <CardImage src={card.image}/>
-        { card.rarity && <CardRarity rarity={card.rarity} /> }
         <CardName>{card.name}</CardName>
         <CardText>{card.text}</CardText>
         { card.attack && <CardAttack>{card.attack}</CardAttack> }
@@ -30,7 +29,9 @@ export default styled(Card)`
     height: 45vw;
 
     border-radius: 10px;
-    background: #999;
+    background: url("/assets/images/template-cards/neutral_legendary_monster_empty_card_by_demaretc-d8ea24s.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 
     font-family: sans-serif;
 `

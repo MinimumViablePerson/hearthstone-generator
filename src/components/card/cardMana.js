@@ -2,15 +2,11 @@ import styled from 'styled-components'
 
 export default styled.div`
     position: absolute;
-    top: -2vw;
-    left: -2vw;
+    top: 3.5vw;
+    left: 1vw;
 
     width: 7vw;
     height: 7vw;
-
-    border-radius: 50%;
-    background: url("assets/images/card-part-mana.png") center;
-    background-size: contain;
 
     display: flex;
     justify-content: center;

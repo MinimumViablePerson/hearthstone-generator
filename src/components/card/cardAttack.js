@@ -1,25 +1,9 @@
 import styled from 'styled-components'
 
-export default styled.div`
+export default styled.span`
     position: absolute;
-    bottom: -1vw;
-    left: -3vw;
-
-    width: 9vw;
-    height: 9vw;
-
-    border-radius: 50%;
-    background: url("assets/images/card-part-attack.png") center;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding-top: 2vw;
-    padding-left: 1vw;
-
+    bottom: 1.2vw;
+    left: 3.5vw;
 
     font-size: 6vw;
 

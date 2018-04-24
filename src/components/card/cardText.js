@@ -2,18 +2,22 @@ import styled from 'styled-components'
 
 const CardText = styled.div`
     position: absolute;
-    top: 65%;
-
-    font-size: 2.5vw;
-
+    top: 62%;
+    left: 0;
     text-align: center;
+    box-sizing: border-box;
 
-    color: white;
-    text-shadow:
-        -1px 0 rgba(0,0,0,0.7),
-        0 1px rgba(0,0,0,0.7),
-        1px 0 rgba(0,0,0,0.7),
-        0 -1px rgba(0,0,0,0.7);
+    padding: 0 15%;
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2vw;
+
+    color: black;
 `
 
 export default CardText
