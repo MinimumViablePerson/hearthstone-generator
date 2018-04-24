@@ -1,18 +1,17 @@
 import styled from 'styled-components'
 
-export default styled.div`
+export default styled.span`
     position: absolute;
-    top: 3.5vw;
-    left: 1vw;
+    top: 35px;
 
-    width: 7vw;
-    height: 7vw;
+    width: 70px;
+    height: 70px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    font-size: 6vw;
+    font-size: 3.5rem;
 
     color: white;
     text-shadow:

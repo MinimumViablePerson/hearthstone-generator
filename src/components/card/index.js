@@ -24,8 +24,8 @@ export default styled(Card)`
 
     margin: 10px;
     padding: 10px;
-    width: 30vw;
-    height: 45vw;
+    width: 300px;
+    height: 450px;
 
     border-radius: 10px;
     background: url("/assets/images/template-cards/neutral_legendary_monster_empty_card_by_demaretc-d8ea24s.png");

@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-const CardText = styled.div`
+const CardText = styled.span`
     position: absolute;
     top: 62%;
     left: 0;
+
     text-align: center;
     box-sizing: border-box;
 
@@ -15,7 +16,7 @@ const CardText = styled.div`
     justify-content: center;
     align-items: center;
 
-    font-size: 2vw;
+    font-size: 1.1rem;
 
     color: black;
 `

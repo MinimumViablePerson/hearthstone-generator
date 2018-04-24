@@ -2,10 +2,18 @@ import styled from 'styled-components'
 
 export default styled.span`
     position: absolute;
-    bottom: 1.2vw;
-    left: 3.5vw;
+    bottom: 15px;
+    left: 14px;
 
-    font-size: 6vw;
+    width: 70px;
+    height: 70px;
+
+    box-sizing: border-box;
+    font-size: 3.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     color: white;
     text-shadow:
