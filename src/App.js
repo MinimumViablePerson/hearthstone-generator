@@ -26,7 +26,7 @@ class App extends React.Component<Props, State> {
         <Title>Hearthstone!</Title>
         {
           this.state.deck.map(card => (
-            <Card card={card} />
+            <Card key={card.name} card={card} />
           ))
         }
       </div>

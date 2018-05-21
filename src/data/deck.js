@@ -30,4 +30,18 @@ const nicolas: Card = {
     health: 6
 }
 
-export const deck: Array<Card> = [anomalus, nicolas]
+const pao: Card = {
+    type: 'minion',
+    family: 'beast',
+    class: 'mage',
+    rarity: 'epic',
+    image: '/assets/images/nicolas.jpg',
+    golden: false,
+    name: 'Paola',
+    text: 'Battlecry: No me da pelota.',
+    mana: 5,
+    attack: 3,
+    health: 6
+}
+
+export const deck: Array<Card> = [anomalus, nicolas, pao]
