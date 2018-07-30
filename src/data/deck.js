@@ -5,7 +5,7 @@ import type {Card} from '../types/card'
 const anomalus: Card = {
     type: 'minion',
     family: 'elemental',
-    class: 'mage',
+    class: 'neutral',
     rarity: 'legendary',
     image: '/assets/images/anomalus.jpg',
     golden: false,
