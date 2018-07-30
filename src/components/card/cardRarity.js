@@ -1,18 +1,17 @@
 import styled from 'styled-components'
 
 const getRarityColor = ({rarity}) => {
-    switch (rarity) {
+  switch (rarity) {
     case 'legendary':
-        return 'orange'
+      return 'orange'
     case 'epic':
-        return 'purple'
+      return 'purple'
     case 'rare':
-        return 'blue'
+      return 'blue'
     case 'common':
-        return 'white'
+      return 'white'
     default:
-        return
-    }
+  }
 }
 
 export default styled.div`

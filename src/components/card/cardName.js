@@ -1,18 +1,17 @@
 import * as React from 'react'
 import styled from 'styled-components'
 
-const CardName = ({children, className}) => (
-    <svg className={className} viewBox="0 0 242 250">
+const CardName = ({children, className}) =>
+  <svg className={className} viewBox='0 0 242 250'>
     <defs>
-        <path id="text-path" d="M29,215c19.7,14.618,135.468-35.233,187-3"/>
+      <path id='text-path' d='M29,215c19.7,14.618,135.468-35.233,187-3' />
     </defs>
     <text>
-        <textPath startOffset="50%" href="#text-path">
-            {children}
-        </textPath>
+      <textPath startOffset='50%' href='#text-path'>
+        {children}
+      </textPath>
     </text>
-    </svg>
-)
+  </svg>
 
 export default styled(CardName)`
     position: absolute;

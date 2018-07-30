@@ -8,15 +8,18 @@ import CardText from './cardText'
 import CardHealth from './cardHealth'
 import CardAttack from './cardAttack'
 
+const buildCardBackUrl = card =>
+  `/assets/images/template-cards/${card.class}_${card.rarity}_${card.type}.png`
+
 export const Card = ({card, className}) => (
-    <div className={className}>
-        <CardMana>{card.mana}</CardMana>
-        <CardImage src={card.image}/>
-        <CardName>{card.name}</CardName>
-        <CardText>{card.text}</CardText>
-        { card.attack && <CardAttack>{card.attack}</CardAttack> }
-        { card.health && <CardHealth>{card.health}</CardHealth> }
-    </div>
+  <div className={className}>
+    <CardMana>{card.mana}</CardMana>
+    <CardImage src={card.image} />
+    <CardName>{card.name}</CardName>
+    <CardText>{card.text}</CardText>
+    { card.attack && <CardAttack>{card.attack}</CardAttack> }
+    { card.health && <CardHealth>{card.health}</CardHealth> }
+  </div>
 )
 
 export default styled(Card)`
@@ -28,7 +31,7 @@ export default styled(Card)`
     height: 450px;
 
     border-radius: 10px;
-    background: url("/assets/images/template-cards/neutral_legendary_monster_empty_card_by_demaretc-d8ea24s.png");
+    background: url(${props => buildCardBackUrl(props.card)});
     background-repeat: no-repeat;
     background-size: contain;
 

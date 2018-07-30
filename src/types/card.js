@@ -11,7 +11,7 @@ type CardFamily =
     | 'demon'
 
 type CardClass =
-    'all'
+    'neutral'
     | 'druid'
     | 'warrior'
     | 'mage'

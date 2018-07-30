@@ -19,7 +19,7 @@ const anomalus: Card = {
 const nicolas: Card = {
     type: 'minion',
     family: 'beast',
-    class: 'mage',
+    class: 'neutral',
     rarity: 'epic',
     image: '/assets/images/nicolas.jpg',
     golden: false,
@@ -33,11 +33,11 @@ const nicolas: Card = {
 const pao: Card = {
     type: 'minion',
     family: 'beast',
-    class: 'mage',
+    class: 'neutral',
     rarity: 'epic',
     image: '/assets/images/nicolas.jpg',
     golden: false,
-    name: 'Paola',
+    name: 'Paola the Destroyer',
     text: 'Battlecry: No me da pelota.',
     mana: 5,
     attack: 3,
